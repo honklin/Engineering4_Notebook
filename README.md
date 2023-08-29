@@ -62,4 +62,4 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 ![Image](images/engineeringimg.png)
 
 ### Test GIF
-![GIF](images/engineeringgif.png)
+![GIF](images/engineeringgif.gif)
