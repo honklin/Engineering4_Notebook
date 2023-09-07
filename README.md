@@ -34,7 +34,7 @@ Code for Launch 1
 
 ### Reflection
 
-This assignment was not very challenging, but I did figure out how a for statement works.
+This assignment was pretty simple, but I did figure out that the syntax for 'for' statements is for var in range (limit inclusive, other limit exclusive, interval). 
 
 &nbsp;
 
