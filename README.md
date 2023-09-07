@@ -10,13 +10,13 @@
 
 ## Raspberry_Pi_Assignment_Template
 
-### Launch 1
+### Launchpad 1
 
 This assignment makes a countdown from 10 to 0.
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+[launch1.webm](https://github.com/honklin/Engineering4_Notebook/assets/121810694/3decf123-b7ab-4771-af79-5c9f6afe99f3)
 
 ### Code
 
@@ -34,7 +34,7 @@ Code for Launch 1
 
 ### Reflection
 
-This assignment was not very challenging, but I did figure out how a for statement works.
+This assignment was pretty simple, but I did figure out that the syntax for 'for' statements is for var in range (limit inclusive, other limit exclusive, interval). 
 
 &nbsp;
 
