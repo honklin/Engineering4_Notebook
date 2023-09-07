@@ -20,17 +20,7 @@ This assignment makes a countdown from 10 to 0.
 
 ### Code
 
- ```python
-#type: ignore
-import time
-
-for i in range(10,0,-1):
-    print(i)
-    time.sleep(1)
-
-print("Liftoff!")
-```
-Code for Launch 1
+[Countdown](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch1.py)
 
 ### Reflection
 
