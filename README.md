@@ -10,13 +10,13 @@
 
 ## Raspberry_Pi_Assignment_Template
 
-### Launch 1
+### Launchpad 1
 
 This assignment makes a countdown from 10 to 0.
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+
 
 ### Code
 
