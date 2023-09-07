@@ -20,11 +20,11 @@ This assignment makes a countdown from 10 to 0.
 
 ### Code
 
-[Countdown](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch1.py)
+[Launchpad 1](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch1.py)
 
 ### Reflection
 
-This assignment was pretty simple, but I did figure out that the syntax for 'for' statements is for var in range (limit inclusive, other limit exclusive, interval). 
+This assignment was pretty simple, but I did figure out that the syntax for 'for' statements is for var in range (limit inclusive, other limit exclusive, interval).
 
 &nbsp;
 
