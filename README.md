@@ -16,7 +16,7 @@ This assignment makes a countdown from 10 to 0.
 
 ### Evidence 
 
-[launch1.webm](https://github.com/honklin/Engineering4_Notebook/assets/121810694/3decf123-b7ab-4771-af79-5c9f6afe99f3)
+insert launch 1 gif
 
 ### Code
 
@@ -24,7 +24,7 @@ This assignment makes a countdown from 10 to 0.
 
 ### Reflection
 
-This assignment was pretty simple, but I did figure out that the syntax for 'for' statements is for var in range (limit inclusive, other limit exclusive, interval).
+This assignment was pretty simple, but I did figure out that the syntax for 'for' statements is for var in range (limit inclusive, other limit exclusive, interval). I also figured out that the PICOs
 
 &nbsp;
 
