@@ -1,6 +1,8 @@
 #type: ignore
-import time
+import time #delay library
 
-for (int i = 10; i >= 0; i = i - 1):
-    print(i)
-    time.delay(1)
+for i in range(10,0,-1): #count from 10 - 0
+    print(i) #print value
+    time.sleep(1) #delay 1 second
+
+print("Liftoff!")
