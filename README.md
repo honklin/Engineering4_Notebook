@@ -16,7 +16,7 @@ This assignment makes a countdown from 10 to 0.
 
 ### Evidence 
 
-insert launch 1 gif
+
 
 ### Code
 
