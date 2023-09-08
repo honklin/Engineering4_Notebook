@@ -12,7 +12,7 @@
 
 ### Launchpad 1
 
-This assignment makes a countdown from 10 to 0.
+This assignment counts down from 10 to 0.
 
 ### Evidence 
 
