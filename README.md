@@ -12,29 +12,19 @@
 
 ### Launchpad 1
 
-This assignment makes a countdown from 10 to 0.
+This assignment counts down from 10 to 0.
 
 ### Evidence 
 
-[launch1.webm](https://github.com/honklin/Engineering4_Notebook/assets/121810694/3decf123-b7ab-4771-af79-5c9f6afe99f3)
+![GIF](images/launch1.gif)
 
 ### Code
 
- ```python
-#type: ignore
-import time
-
-for i in range(10,0,-1):
-    print(i)
-    time.sleep(1)
-
-print("Liftoff!")
-```
-Code for Launch 1
+[Launchpad 1](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch1.py)
 
 ### Reflection
 
-This assignment was pretty simple, but I did figure out that the syntax for 'for' statements is for var in range (limit inclusive, other limit exclusive, interval). 
+This assignment was pretty simple, but I did figure out that the syntax for 'for' statements is for var in range (limit inclusive, other limit exclusive, interval). I also figured out that the PICOs
 
 &nbsp;
 
