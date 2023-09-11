@@ -24,7 +24,29 @@ This assignment counts down from 10 to 0.
 
 ### Reflection
 
-This assignment was pretty simple, but I did figure out that the syntax for 'for' statements is for var in range (limit inclusive, other limit exclusive, interval). I also figured out that the PICOs
+This assignment was pretty simple, but I did figure out that the syntax for 'for' statements is for var in range (limit inclusive, other limit exclusive, interval). I also figured out how to run the PICOs in the repl using Ctrl+D and Ctrl+S on the code.py file.
+
+&nbsp;
+
+### Launchpad 2
+
+This assignment blinks a green LED every second as it counts down from 10 seconds, then turns the red LED on for liftoff.
+
+### Evidence 
+
+![GIF](images/launch2.gif)
+
+### Wiring
+
+![Image](images/launch2wiring.jpg)
+
+### Code
+
+[Launchpad 2](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch2.py)
+
+### Reflection
+
+The only problems I had with this assignment was the wiring. I needed to check that my LEDs were working because the red one didn't turn on and was causing problems by turning the green LED on instead. Then, after I replaced the red LED, I discovered that the green LED wasn't turning on so I had to replace that as well.
 
 &nbsp;
 
