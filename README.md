@@ -36,6 +36,9 @@ This assignment blinks a green LED every second as it counts down from 10 second
 
 ![GIF](images/launch2.gif)
 
+### Wiring
+
+
 ### Code
 
 [Launchpad 2](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch2.py)
