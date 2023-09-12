@@ -14,23 +14,27 @@
 
 This assignment counts down from 10 to 0.
 
+### Code
+
+[Launch 1 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch1.py)
+
 ### Evidence 
 
 ![GIF](images/launch1.gif)
 
-### Code
-
-[Launchpad 1](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch1.py)
-
 ### Reflection
 
-This assignment was pretty simple, but I did figure out that the syntax for 'for' statements is for var in range (limit inclusive, other limit exclusive, interval). I also figured out how to run the PICOs in the repl using Ctrl+D and Ctrl+S on the code.py file.
+This assignment was pretty simple, but I did figure out that the syntax for 'for' statements is for var in range (limit inclusive, other limit exclusive, interval). I also figured out how to run the PICOs in the repl using Ctrl+D and Ctrl+S on the code.py file. The code.py file needs to be opened from the CircuitPy folder once the device is connected, not from a code.py file in the documents folder.
 
 &nbsp;
 
 ### Launchpad 2
 
 This assignment blinks a green LED every second as it counts down from 10 seconds, then turns the red LED on for liftoff.
+
+### Code
+
+[Launch 2 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch2.py)
 
 ### Evidence 
 
@@ -39,14 +43,34 @@ This assignment blinks a green LED every second as it counts down from 10 second
 ### Wiring
 
 ![Image](images/launch2wiring.jpg)
-
-### Code
-
-[Launchpad 2](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch2.py)
+Launch 2 wiring
 
 ### Reflection
 
 The only problems I had with this assignment was the wiring. I needed to check that my LEDs were working because the red one didn't turn on and was causing problems by turning the green LED on instead. Then, after I replaced the red LED, I discovered that the green LED wasn't turning on so I had to replace that as well.
+
+&nbsp;
+
+### Launchpad 3
+
+This assignment uses a button to start the liftoff countdown form 10 with LEDs.
+
+### Code
+
+[Launch 3 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch3.py)
+
+### Evidence 
+
+![GIF](images/launch3.gif)
+
+### Wiring
+
+![Image](images/launch3wiring.jpg)
+Launch 3 Wiring
+
+### Reflection
+
+I added a pull down on the button in my code, but that means that I don't need a resistor on the button as well because the pull down declaration restricts the power it gives from the pin. I also ran into a problem where my button was always evaluating True even though I hadn't pressed it, but I realized that I had forgotten the button wires need to be on opposite sides and rails.
 
 &nbsp;
 
