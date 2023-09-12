@@ -50,9 +50,9 @@ The only problems I had with this assignment was the wiring. I needed to check t
 
 &nbsp;
 
-### Launchpad 2
+### Launchpad 3
 
-This assignment starts a countdown from 10 with a green flashing light by pressing a button, then turns green once it hits liftoff.
+This assignment uses a button to start the liftoff countdown form 10 with LEDs.
 
 ### Evidence 
 
