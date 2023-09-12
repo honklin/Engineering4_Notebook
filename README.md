@@ -68,7 +68,7 @@ This assignment starts a countdown from 10 with a green flashing light by pressi
 
 ### Reflection
 
-I added a pull down on the button in my code, but that means that I don't need a resistor on the button as well because the pull down declaration restricts the power it gives from the pin.
+I added a pull down on the button in my code, but that means that I don't need a resistor on the button as well because the pull down declaration restricts the power it gives from the pin. I also ran into a problem where my button was always evaluating True even though I hadn't pressed it, but I realized that I had forgotten the button wires need to be on opposite sides and rails.
 
 &nbsp;
 
