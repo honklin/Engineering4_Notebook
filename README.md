@@ -50,6 +50,28 @@ The only problems I had with this assignment was the wiring. I needed to check t
 
 &nbsp;
 
+### Launchpad 2
+
+This assignment starts a countdown from 10 with a green flashing light by pressing a button, then turns green once it hits liftoff.
+
+### Evidence 
+
+![GIF](images/launch3.gif)
+
+### Wiring
+
+![Image](images/launch3wiring.jpg)
+
+### Code
+
+[Launchpad 3](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch3.py)
+
+### Reflection
+
+I added a pull down on the button in my code, but that means that I don't need a resistor on the button as well because the pull down declaration restricts the power it gives from the pin.
+
+&nbsp;
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
