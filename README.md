@@ -39,6 +39,7 @@ This assignment blinks a green LED every second as it counts down from 10 second
 ### Wiring
 
 ![Image](images/launch2wiring.jpg)
+Launch 2 wiring
 
 ### Code
 
