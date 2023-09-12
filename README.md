@@ -20,7 +20,7 @@ This assignment counts down from 10 to 0.
 
 ### Code
 
-[Launchpad 1](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch1.py)
+[Launch 1 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch1.py)
 
 ### Reflection
 
@@ -42,7 +42,7 @@ This assignment blinks a green LED every second as it counts down from 10 second
 
 ### Code
 
-[Launchpad 2](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch2.py)
+[Launch 2 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch2.py)
 
 ### Reflection
 
@@ -64,7 +64,7 @@ This assignment uses a button to start the liftoff countdown form 10 with LEDs.
 
 ### Code
 
-[Launchpad 3](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch3.py)
+[Launch 3 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch3.py)
 
 ### Reflection
 
