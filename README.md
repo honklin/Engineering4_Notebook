@@ -14,13 +14,13 @@
 
 This assignment counts down from 10 to 0.
 
-### Evidence 
-
-![GIF](images/launch1.gif)
-
 ### Code
 
 [Launch 1 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch1.py)
+
+### Evidence 
+
+![GIF](images/launch1.gif)
 
 ### Reflection
 
@@ -32,6 +32,10 @@ This assignment was pretty simple, but I did figure out that the syntax for 'for
 
 This assignment blinks a green LED every second as it counts down from 10 seconds, then turns the red LED on for liftoff.
 
+### Code
+
+[Launch 2 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch2.py)
+
 ### Evidence 
 
 ![GIF](images/launch2.gif)
@@ -40,10 +44,6 @@ This assignment blinks a green LED every second as it counts down from 10 second
 
 ![Image](images/launch2wiring.jpg)
 Launch 2 wiring
-
-### Code
-
-[Launch 2 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch2.py)
 
 ### Reflection
 
@@ -55,6 +55,10 @@ The only problems I had with this assignment was the wiring. I needed to check t
 
 This assignment uses a button to start the liftoff countdown form 10 with LEDs.
 
+### Code
+
+[Launch 3 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch3.py)
+
 ### Evidence 
 
 ![GIF](images/launch3.gif)
@@ -63,10 +67,6 @@ This assignment uses a button to start the liftoff countdown form 10 with LEDs.
 
 ![Image](images/launch3wiring.jpg)
 Launch 3 Wiring
-
-### Code
-
-[Launch 3 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch3.py)
 
 ### Reflection
 
