@@ -35,6 +35,7 @@ This assignment blinks a green LED every second as it counts down from 10 second
 ### Evidence 
 
 ![GIF](images/launch2.gif)
+Launch 2 GIF
 
 ### Wiring
 
@@ -58,10 +59,12 @@ This assignment uses a button to start the liftoff countdown form 10 with LEDs.
 ### Evidence 
 
 ![GIF](images/launch3.gif)
+Launch 3 GIF
 
 ### Wiring
 
 ![Image](images/launch3wiring.jpg)
+Launch 3 Wiring
 
 ### Code
 
