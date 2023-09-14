@@ -53,7 +53,7 @@ The only problems I had with this assignment was the wiring. I needed to check t
 
 ### Launchpad 3
 
-This assignment uses a button to start the liftoff countdown form 10 with LEDs.
+This assignment uses a button to start the liftoff countdown from 10 with LEDs.
 
 ### Code
 
@@ -71,6 +71,29 @@ Launch 3 Wiring
 ### Reflection
 
 I added a pull down on the button in my code, but that means that I don't need a resistor on the button as well because the pull down declaration restricts the power it gives from the pin. I also ran into a problem where my button was always evaluating True even though I hadn't pressed it, but I realized that I had forgotten the button wires need to be on opposite sides and rails.
+
+&nbsp;
+
+### Launchpad 4
+
+This assignment rotates a servo after the liftoff countdown ends.
+
+### Code
+
+[Launch 4 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Launch4.py)
+
+### Evidence 
+
+![GIF](images/launch4.gif)
+
+### Wiring
+
+![Image](images/launch4wiring.jpg)
+Launch 3 Wiring
+
+### Reflection
+
+For 
 
 &nbsp;
 
