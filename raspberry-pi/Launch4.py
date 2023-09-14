@@ -2,8 +2,8 @@
 import time #sleep library
 import board #pin library
 import digitalio #led library
-import pwmio
-from adafruit_motor import servo
+import pwmio #pwm library
+from adafruit_motor import servo #servo library
 
 red = digitalio.DigitalInOut(board.GP0) #red led declaration
 red.direction = digitalio.Direction.OUTPUT
@@ -13,9 +13,10 @@ button = digitalio.DigitalInOut(board.GP2) #button declaration
 button.pull = digitalio.Pull.DOWN
 button.direction = digitalio.Direction.INPUT
 
-pwm_servo = pwmio.PWMOut(board.GP3, duty_cycle=2**15, frequency=50)
-servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
-servo1.angle = 0
+
+pwm = pwmio.PWMOut(board.GP3,duty_cycle=2**15,frequency=100) #servo declaration
+servo = servo.Servo(pwm)
+servo.angle = 0
 
 while True:
     if (button.value): #when button is pressed
@@ -27,6 +28,5 @@ while True:
             time.sleep(.5)
         print("Liftoff!")
         green.value = True #green led on
-        servo1.angle = 180
+        servo.angle = 180 # turn servo
         time.sleep(10)
-    
