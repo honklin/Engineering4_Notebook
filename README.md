@@ -93,7 +93,7 @@ Launch 3 Wiring
 
 ### Reflection
 
-For 
+I had some trouble getting my servo to turn even though my code was correct and I couldn't find any problems with my wiring. Then, I realized that I had accidentally wired my servo to ground through a resistor so the servo wasn't rotating. 
 
 &nbsp;
 
