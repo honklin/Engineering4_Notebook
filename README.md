@@ -89,7 +89,7 @@ This assignment rotates a servo after the liftoff countdown ends.
 ### Wiring
 
 ![Image](images/launch4wiring.jpg)
-Launch 3 Wiring
+Launch 4 Wiring
 
 ### Reflection
 
