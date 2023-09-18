@@ -97,6 +97,29 @@ I had some trouble getting my servo to turn even though my code was correct and 
 
 &nbsp;
 
+### Crash Avoidance 1
+
+This assignment prints an accelerometers values to the serial monitor.
+
+### Code
+
+[Crash Avoidance 1 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Crash1.py)
+
+### Evidence 
+
+![GIF](images/crash1.gif)
+
+### Wiring
+
+![Image](images/crash1wiring.jpg)
+Crash 1 Wiring
+
+### Reflection
+
+
+
+&nbsp;
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
