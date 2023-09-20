@@ -3,7 +3,7 @@
 &nbsp;
 
 ## Table of Contents
-* [Launchpad 1](#Launchpad 1)
+* [Launchpad 1](#Launchpad_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
