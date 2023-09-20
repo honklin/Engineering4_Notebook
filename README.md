@@ -115,8 +115,6 @@ This assignment prints an accelerometers values to the serial monitor.
 
 ![Image](images/crash1wiring.jpg)
 
-Crash 1 Wiring 
-
 ### Reflection
 
 I did not think this assignment was very difficult. All I needed for the code was to declare the accelerometer and print its acceleration values to the serial monitor. The wiring wasn't difficult either because it was just the ground, 3V, SDA, and SCL pins.
