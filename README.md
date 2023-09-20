@@ -114,6 +114,7 @@ This assignment prints an accelerometers values to the serial monitor.
 ### Wiring
 
 ![Image](images/crash1wiring.jpg)
+
 Crash 1 Wiring 
 
 ### Reflection
