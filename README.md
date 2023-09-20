@@ -99,7 +99,7 @@ I had some trouble getting my servo to turn even though my code was correct and 
 
 &nbsp;
 
-### Crash Avoidance_1
+### Crash_Avoidance_1
 
 This assignment prints an accelerometers values to the serial monitor.
 
@@ -118,7 +118,7 @@ Crash 1 Wiring
 
 ### Reflection
 
-
+I did not think this assignment was very difficult. All I needed for the code was to declare the accelerometer and print its acceleration values to the serial monitor. The wiring wasn't difficult either because it was just the ground, 3V, SDA, and SCL pins.
 
 &nbsp;
 
