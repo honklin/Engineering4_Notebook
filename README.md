@@ -4,6 +4,10 @@
 
 ## Table of Contents
 * [Launchpad 1](#Launchpad_1)
+* [Launchpad 2](#Launchpad_2)
+* [Launchpad 3](#Launchpad_3)
+* [Launchpad 4](#Launchpad_4)
+* [Crash Avoidance 1](#Crash_Avoidance_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -26,7 +30,7 @@ This assignment was pretty simple, but I did figure out that the syntax for 'for
 
 &nbsp;
 
-### Launchpad 2
+## Launchpad 2
 
 This assignment blinks a green LED every second as it counts down from 10 seconds, then turns the red LED on for liftoff.
 
@@ -49,7 +53,7 @@ The only problems I had with this assignment was the wiring. I needed to check t
 
 &nbsp;
 
-### Launchpad 3
+## Launchpad 3
 
 This assignment uses a button to start the liftoff countdown from 10 with LEDs.
 
@@ -72,7 +76,7 @@ I added a pull down on the button in my code, but that means that I don't need a
 
 &nbsp;
 
-### Launchpad 4
+## Launchpad 4
 
 This assignment rotates a servo after the liftoff countdown ends.
 
