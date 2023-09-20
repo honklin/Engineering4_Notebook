@@ -3,14 +3,16 @@
 &nbsp;
 
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
+* [Launchpad 1](#launchpad_1)
+* [Launchpad 2](#launchpad_2)
+* [Launchpad 3](#launchpad_3)
+* [Launchpad 4](#launchpad_4)
+* [Crash Avoidance 1](#crash_avoidance_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
 
-## Raspberry_Pi_Assignment_Template
-
-### Launchpad 1
+## Launchpad_1
 
 This assignment counts down from 10 to 0.
 
@@ -28,7 +30,7 @@ This assignment was pretty simple, but I did figure out that the syntax for 'for
 
 &nbsp;
 
-### Launchpad 2
+## Launchpad_2
 
 This assignment blinks a green LED every second as it counts down from 10 seconds, then turns the red LED on for liftoff.
 
@@ -51,7 +53,7 @@ The only problems I had with this assignment was the wiring. I needed to check t
 
 &nbsp;
 
-### Launchpad 3
+## Launchpad_3
 
 This assignment uses a button to start the liftoff countdown from 10 with LEDs.
 
@@ -74,7 +76,7 @@ I added a pull down on the button in my code, but that means that I don't need a
 
 &nbsp;
 
-### Launchpad 4
+## Launchpad_4
 
 This assignment rotates a servo after the liftoff countdown ends.
 
@@ -97,7 +99,7 @@ I had some trouble getting my servo to turn even though my code was correct and 
 
 &nbsp;
 
-### Crash Avoidance 1
+## Crash_Avoidance_1
 
 This assignment prints an accelerometers values to the serial monitor.
 
@@ -112,11 +114,10 @@ This assignment prints an accelerometers values to the serial monitor.
 ### Wiring
 
 ![Image](images/crash1wiring.jpg)
-Crash 1 Wiring
 
 ### Reflection
 
-
+I did not think this assignment was very difficult. All I needed for the code was to declare the accelerometer and print its acceleration values to the serial monitor. The wiring wasn't difficult either because it was just the ground, 3V, SDA, and SCL pins.
 
 &nbsp;
 
