@@ -99,7 +99,7 @@ I had some trouble getting my servo to turn even though my code was correct and 
 
 &nbsp;
 
-### Crash_Avoidance_1
+## Crash_Avoidance_1
 
 This assignment prints an accelerometers values to the serial monitor.
 
