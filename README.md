@@ -3,14 +3,12 @@
 &nbsp;
 
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
+* [Launchpad 1](#Launchpad 1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
 
-## Raspberry_Pi_Assignment_Template
-
-### Launchpad 1
+## Launchpad 1
 
 This assignment counts down from 10 to 0.
 
