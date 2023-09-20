@@ -121,6 +121,28 @@ I did not think this assignment was very difficult. All I needed for the code wa
 
 &nbsp;
 
+## Crash_Avoidance_2
+
+This assignment turns on an LED when the board is tilted.
+
+### Code
+
+[Crash Avoidance 2 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Crash2.py)
+
+### Evidence 
+
+![GIF](images/crash2.gif)
+
+### Wiring
+
+![Image](images/crash2wiring.jpg)
+
+### Reflection
+
+The most difficult part of this assignment was trying to separate the battery and the charger. 
+
+&nbsp;
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
