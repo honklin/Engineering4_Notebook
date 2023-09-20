@@ -3,11 +3,11 @@
 &nbsp;
 
 ## Table of Contents
-* [Launchpad 1](#Launchpad_1)
-* [Launchpad 2](#Launchpad_2)
-* [Launchpad 3](#Launchpad_3)
-* [Launchpad 4](#Launchpad_4)
-* [Crash Avoidance 1](#Crash_Avoidance_1)
+* [Launchpad 1](#launchpad_1)
+* [Launchpad 2](#launchpad_2)
+* [Launchpad 3](#launchpad_3)
+* [Launchpad 4](#launchpad_4)
+* [Crash Avoidance 1](#crash_avoidance_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
