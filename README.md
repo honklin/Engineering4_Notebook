@@ -8,6 +8,7 @@
 * [Launchpad 3](#launchpad_3)
 * [Launchpad 4](#launchpad_4)
 * [Crash Avoidance 1](#crash_avoidance_1)
+* [Crash Avoidance 2](#crash_avoidance_2)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -118,6 +119,28 @@ This assignment prints an accelerometers values to the serial monitor.
 ### Reflection
 
 I did not think this assignment was very difficult. All I needed for the code was to declare the accelerometer and print its acceleration values to the serial monitor. The wiring wasn't difficult either because it was just the ground, 3V, SDA, and SCL pins.
+
+&nbsp;
+
+## Crash_Avoidance_2
+
+This assignment turns on an LED when the board is tilted.
+
+### Code
+
+[Crash Avoidance 2 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Crash2.py)
+
+### Evidence 
+
+![GIF](images/crash2.gif)
+
+### Wiring
+
+![Image](images/crash2wiring.jpg)
+
+### Reflection
+
+The most difficult part of this assignment was trying to separate the battery and the charger. I also had to be careful with the wiring so I didn't fry the PICO with the battery. In the code, I had to separate the accelerometer x, y, and z values like I would in an array so I could evaluate them separately.
 
 &nbsp;
 
