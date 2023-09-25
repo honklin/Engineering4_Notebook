@@ -147,6 +147,7 @@ The most difficult part of this assignment was trying to separate the battery an
 
 ## Crash_Avoidance_3
 
+This assignment prints the angular velocity on an OLED screen.
 
 ### Code
 
