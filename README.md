@@ -9,6 +9,7 @@
 * [Launchpad 4](#launchpad_4)
 * [Crash Avoidance 1](#crash_avoidance_1)
 * [Crash Avoidance 2](#crash_avoidance_2)
+* [Crash Avoidance 3](#crash_avoidance_3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
