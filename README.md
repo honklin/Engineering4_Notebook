@@ -144,6 +144,27 @@ The most difficult part of this assignment was trying to separate the battery an
 
 &nbsp;
 
+## Crash_Avoidance_3
+
+
+### Code
+
+[Crash Avoidance 3 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Crash3.py)
+
+### Evidence 
+
+![GIF](images/crash3.gif)
+
+### Wiring
+
+![Image](images/crash3wiring.jpg)
+
+### Reflection
+
+
+
+&nbsp;
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
