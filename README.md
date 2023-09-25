@@ -9,6 +9,7 @@
 * [Launchpad 4](#launchpad_4)
 * [Crash Avoidance 1](#crash_avoidance_1)
 * [Crash Avoidance 2](#crash_avoidance_2)
+* [Crash Avoidance 3](#crash_avoidance_3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -141,6 +142,28 @@ This assignment turns on an LED when the board is tilted.
 ### Reflection
 
 The most difficult part of this assignment was trying to separate the battery and the charger. I also had to be careful with the wiring so I didn't fry the PICO with the battery. In the code, I had to separate the accelerometer x, y, and z values like I would in an array so I could evaluate them separately.
+
+&nbsp;
+
+## Crash_Avoidance_3
+
+This assignment prints the angular velocity on an OLED screen.
+
+### Code
+
+[Crash Avoidance 3 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Crash3.py)
+
+### Evidence 
+
+![GIF](images/crash3.gif)
+
+### Wiring
+
+![Image](images/crash3wiring.jpg)
+
+### Reflection
+
+
 
 &nbsp;
 
