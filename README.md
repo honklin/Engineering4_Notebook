@@ -163,7 +163,7 @@ This assignment prints the angular velocity on an OLED screen.
 
 ### Reflection
 
-
+It was more challenging in this assignment to display output using the OLED and to connect 2 i2c devices on the same pins. I figured out how to connect both the OLED and accelerometer on the same SDA/SCL pins by distinguishing by the separate address on the two devices. I also figured out that unlike with an LED, you don't have to reposition the cursor for each line. You can use \n to move to a new line and \t to move the cursor a tab over to print the text.
 
 &nbsp;
 
