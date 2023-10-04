@@ -175,21 +175,19 @@ In this assignment we designed a beam that we thought would best hold as much we
 
 ### Part Link 
 
-[Beam](https://cvilleschools.onshape.com/documents/9038cb34a59f90ef5226b7fe/w/995d5394430dd0e4e411f47a/e/81684d3986b9792771074cb9?renderMode=0&uiState=651d6972c9903a610100dd2c).
+[Beam](https://cvilleschools.onshape.com/documents/9038cb34a59f90ef5226b7fe/w/995d5394430dd0e4e411f47a/e/81684d3986b9792771074cb9?renderMode=0&uiState=651d6972c9903a610100dd2c)
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+We thought that a honeycomb pattern would work best to support the beam. We cut out honeycomb shapes along the center of the beam but found that the beam was still much too heavy. We needed to cut 8 grams off the weight to get it under 13 grams for the assignment so we cut hexagons from the top to the bottom of the beam. We also filletted points and cut off any excess material to reduce the weight down and we finally got it to 12.99 grams. Because we had to cut holes in the beam to make the weight requirement, there is a chance that the beam will break easily.
 
 &nbsp;
 
 ## Media Test
-
-Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
 
 ### Test Link
 [Link](http://www.google.com)
