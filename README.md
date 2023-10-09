@@ -10,7 +10,9 @@
 * [Crash Avoidance 1](#crash_avoidance_1)
 * [Crash Avoidance 2](#crash_avoidance_2)
 * [Crash Avoidance 3](#crash_avoidance_3)
-* [Beam](#beam)
+* [FEA Analysis 1](#fea_analysis_1)
+* [FEA Analysis 2](#fea_analysis_2)
+* [FEA Analysis 3](#fea_analysis_3)
 
 &nbsp;
 
@@ -167,7 +169,7 @@ It was more challenging in this assignment to display output using the OLED and 
 
 &nbsp;
 
-## Beam
+## FEA_Analysis_1
 
 ### Assignment Description
 
@@ -179,11 +181,51 @@ In this assignment we designed a beam that we thought would best hold as much we
 
 ### Part Image
 
-![Image](images/Beam.png)
+![Image](images/Simulation.png)
 
 ### Reflection
 
 We thought that a honeycomb pattern would work best to support the beam. We cut out hexagons along the center of the beam but found that the beam was still much too heavy. We needed to cut 8 grams off the weight to get it under 13 grams for the assignment so we cut hexagons from the top to the bottom of the beam. We also filletted points and cut off any excess material to reduce the weight and finally got it to 12.99 grams. Because we had to cut holes in the beam to make the weight requirement, there is a chance that the beam will break easily.
+
+&nbsp;
+
+## FEA_Analysis_3
+
+### Assignment Description
+
+In this assignment we ran a simulation to see the effects of a force on our beam.
+
+### Part Link 
+
+[Beam](https://cvilleschools.onshape.com/documents/9038cb34a59f90ef5226b7fe/w/995d5394430dd0e4e411f47a/e/81684d3986b9792771074cb9?renderMode=0&uiState=651d6972c9903a610100dd2c)
+
+### Part Image
+
+![Image](images/Simulation1.png)
+
+### Reflection
+
+Our simulation showed that the beam was under the most stress nearest to the holder and was under less stress at the end of the beam. The beam seems to bend quite a bit so we will need to find a way to reinforce it. We are planning to move the material from the parts under less force to areas under more force by slanting the top of beam so that it is thicker nearer to beginning of the beam and thinner at the end.
+
+&nbsp;
+
+## FEA_Analysis_4
+
+### Assignment Description
+
+In this assignment we used the data from our simulation to make our beam stronger.
+
+### Part Link 
+
+[Beam](https://cvilleschools.onshape.com/documents/9038cb34a59f90ef5226b7fe/w/995d5394430dd0e4e411f47a/e/81684d3986b9792771074cb9?renderMode=0&uiState=651d6972c9903a610100dd2c)
+
+### Part Image
+
+![Image](images/Simulation2.png)
+
+### Reflection
+
+Our simulation showed that our beam was under a lot of stress near the holder and wasn't under much stress nearer to the end. We decided to slant the top so that the beam was thicker near the holder, where it was under more stress, and made it thinner at the end of the beam. We hoped that this would strengthen the parts under more stress
 
 &nbsp;
 
