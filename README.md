@@ -189,7 +189,7 @@ We thought that a honeycomb pattern would work best to support the beam. We cut 
 
 &nbsp;
 
-## FEA_Analysis_3
+## FEA_Analysis_2
 
 ### Assignment Description
 
@@ -209,7 +209,7 @@ Our simulation showed that the beam was under the most stress nearest to the hol
 
 &nbsp;
 
-## FEA_Analysis_4
+## FEA_Analysis_3
 
 ### Assignment Description
 
