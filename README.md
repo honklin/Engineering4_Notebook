@@ -181,7 +181,7 @@ In this assignment we designed a beam that we thought would best hold as much we
 
 ### Part Image
 
-![Image](images/Simulation.png)
+![Image](images/beam.png)
 
 ### Reflection
 
