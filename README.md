@@ -201,7 +201,7 @@ In this assignment we ran a simulation to see the effects of a force on our beam
 
 ### Part Image
 
-![Image](images/Simulation1.png)
+![Image](images/simulation.png)
 
 ### Reflection
 
