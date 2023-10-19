@@ -11,8 +11,8 @@
 * [Crash Avoidance 2](#crash_avoidance_2)
 * [Crash Avoidance 3](#crash_avoidance_3)
 * [FEA Analysis 1](#fea_analysis_1)
-* [FEA Analysis 2](#fea_analysis_2)
 * [FEA Analysis 3](#fea_analysis_3)
+* [FEA Analysis 4](#fea_analysis_4)
 
 &nbsp;
 
@@ -189,7 +189,7 @@ We thought that a honeycomb pattern would work best to support the beam. We cut 
 
 &nbsp;
 
-## FEA_Analysis_2
+## FEA_Analysis_3
 
 ### Assignment Description
 
@@ -201,7 +201,7 @@ In this assignment we ran a simulation to see the effects of a force on our beam
 
 ### Part Image
 
-![Image](images/simulation.png)
+![Image](images/simulation1.png)
 
 ### Reflection
 
@@ -209,7 +209,7 @@ Our simulation showed that the beam was under the most stress nearest to the hol
 
 &nbsp;
 
-## FEA_Analysis_3
+## FEA_Analysis_4
 
 ### Assignment Description
 
@@ -221,11 +221,11 @@ In this assignment we used the data from our simulation to make our beam stronge
 
 ### Part Image
 
-![Image](images/Simulation2.png)
+![Image](images/simulation2.png)
 
 ### Reflection
 
-Our simulation showed that our beam was under a lot of stress near the holder and wasn't under much stress nearer to the end. We decided to slant the top so that the beam was thicker near the holder, where it was under more stress, and made it thinner at the end of the beam. We hoped that this would strengthen the parts under more stress
+Our simulation showed that our beam was under a lot of stress near the holder and wasn't under much stress nearer to the end. We decided to slant the top so that the beam was thicker near the holder, where it was under more stress, and made it thinner at the end of the beam. We hoped that this would strengthen the parts under more stress and weaken the parts that 
 
 &nbsp;
 
