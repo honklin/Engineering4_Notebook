@@ -225,7 +225,7 @@ In this assignment we used the data from our simulation to make our beam stronge
 
 ### Reflection
 
-Our simulation showed that our beam was under a lot of stress near the holder and wasn't under much stress nearer to the end. We decided to slant the top so that the beam was thicker near the holder, where it was under more stress, and made it thinner at the end of the beam. We hoped that this would strengthen the parts under more stress and weaken the parts that 
+Our simulation showed that our beam was under a lot of stress near the holder and wasn't under much stress nearer to the end. We decided to slant the top so that the beam was thicker near the holder, where it was under more stress, and made it thinner at the end of the beam. We hoped that this would strengthen the parts under more stress by weakening the parts under lower stress. The parts nearer to the beam would bend more because of how the force is applied, but by making it thicker, the beam should be able to beand farther without breaking.
 
 &nbsp;
 
