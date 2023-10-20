@@ -10,7 +10,9 @@
 * [Crash Avoidance 1](#crash_avoidance_1)
 * [Crash Avoidance 2](#crash_avoidance_2)
 * [Crash Avoidance 3](#crash_avoidance_3)
-* [Onshape_Assignment_Template](#onshape_assignment_template)
+* [FEA Analysis 1](#fea_analysis_1)
+* [FEA Analysis 3](#fea_analysis_3)
+* [FEA Analysis 4](#fea_analysis_4)
 
 &nbsp;
 
@@ -167,29 +169,67 @@ It was more challenging in this assignment to display output using the OLED and 
 
 &nbsp;
 
-## Onshape_Assignment_Template
+## FEA_Analysis_1
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+In this assignment we designed a beam that we thought would best hold as much weight as possible without breaking or bending too far.
 
 ### Part Link 
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+[Beam](https://cvilleschools.onshape.com/documents/9038cb34a59f90ef5226b7fe/w/995d5394430dd0e4e411f47a/e/81684d3986b9792771074cb9?renderMode=0&uiState=651d6972c9903a610100dd2c)
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![Image](images/beam.png)
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+We thought that a honeycomb pattern would work best to support the beam. We cut out hexagons along the center of the beam but found that the beam was still much too heavy. We needed to cut 8 grams off the weight to get it under 13 grams for the assignment so we cut hexagons from the top to the bottom of the beam. We also filletted points and cut off any excess material to reduce the weight and finally got it to 12.99 grams. Because we had to cut holes in the beam to make the weight requirement, there is a chance that the beam will break easily.
+
+&nbsp;
+
+## FEA_Analysis_3
+
+### Assignment Description
+
+In this assignment we ran a simulation to see the effects of a force on our beam.
+
+### Part Link 
+
+[Beam](https://cvilleschools.onshape.com/documents/9038cb34a59f90ef5226b7fe/w/995d5394430dd0e4e411f47a/e/81684d3986b9792771074cb9?renderMode=0&uiState=651d6972c9903a610100dd2c)
+
+### Part Image
+
+![Image](images/simulation1.png)
+
+### Reflection
+
+Our simulation showed that the beam was under the most stress nearest to the holder and was under less stress at the end of the beam. The beam seems to bend quite a bit so we will need to find a way to reinforce it. We are planning to move the material from the parts under less force to areas under more force by slanting the top of beam so that it is thicker nearer to beginning of the beam and thinner at the end.
+
+&nbsp;
+
+## FEA_Analysis_4
+
+### Assignment Description
+
+In this assignment we used the data from our simulation to make our beam stronger.
+
+### Part Link 
+
+[Beam](https://cvilleschools.onshape.com/documents/9038cb34a59f90ef5226b7fe/w/995d5394430dd0e4e411f47a/e/81684d3986b9792771074cb9?renderMode=0&uiState=651d6972c9903a610100dd2c)
+
+### Part Image
+
+![Image](images/simulation2.png)
+
+### Reflection
+
+Our simulation showed that our beam was under a lot of stress near the holder and wasn't under much stress nearer to the end. We decided to slant the top so that the beam was thicker near the holder, where it was under more stress, and made it thinner at the end of the beam. We hoped that this would strengthen the parts under more stress by weakening the parts under lower stress. The parts nearer to the beam would bend more because of how the force is applied, but by making it thicker, the beam should be able to beand farther without breaking.
 
 &nbsp;
 
 ## Media Test
-
-Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
 
 ### Test Link
 [Link](http://www.google.com)
