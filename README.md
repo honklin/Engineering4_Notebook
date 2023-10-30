@@ -10,6 +10,7 @@
 * [Crash Avoidance 1](#crash_avoidance_1)
 * [Crash Avoidance 2](#crash_avoidance_2)
 * [Crash Avoidance 3](#crash_avoidance_3)
+* [Landing Area 1](#landing_area_1)
 * [FEA Analysis 1](#fea_analysis_1)
 * [FEA Analysis 3](#fea_analysis_3)
 * [FEA Analysis 4](#fea_analysis_4)
@@ -166,6 +167,24 @@ This assignment prints the angular velocity on an OLED screen.
 ### Reflection
 
 It was more challenging in this assignment to display output using the OLED and to connect 2 i2c devices on the same pins. I figured out how to connect both the OLED and accelerometer on the same SDA/SCL pins by distinguishing by the separate address on the two devices. I also figured out that unlike with an LED, you don't have to reposition the cursor for each line. You can use \n to move to a new line and \t to move the cursor a tab over to print the text.
+
+&nbsp;
+
+## Landing_Area_1
+
+This assignment lets the user enter 3 coordinates as input and calculates the area made between the coordinates.
+
+### Code
+
+[Landing Area 1 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Landing1.py)
+
+### Evidence 
+
+![GIF](images/landing1.gif)
+
+### Reflection
+
+This assignment was challenging because I had to learn how to take inputs from the terminal using the input() function. I also had to figure out how to split the coordinates entered into 2 separate numbers using the split() function that the function could use to calculate the area. I used a try/except test to make sure the user input the coordinates in the right form and would prompt the user to correct their format if the syntax was incorrect.
 
 &nbsp;
 
