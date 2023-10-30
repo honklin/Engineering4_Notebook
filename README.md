@@ -169,6 +169,24 @@ It was more challenging in this assignment to display output using the OLED and 
 
 &nbsp;
 
+## Landing_Area_1
+
+This assignment lets the user enter 3 coordinates as input and calculates the area made between the coordinates.
+
+### Code
+
+[Landing Area 1 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Landing1.py)
+
+### Evidence 
+
+![GIF](images/landing1.gif)
+
+### Reflection
+
+This assignment was challenging because I had to learn how to take inputs from the terminal using the input() function. I also had to figure out how to split the coordinates entered into 2 separate numbers using the split() function that the function could use to calculate the area. I used a try/except test to make sure the user input the coordinates in the right form and would prompt the user to correct their format if the syntax was incorrect.
+
+&nbsp;
+
 ## FEA_Analysis_1
 
 ### Assignment Description
