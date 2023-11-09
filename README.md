@@ -189,6 +189,24 @@ This assignment was challenging because I had to learn how to take inputs from t
 
 &nbsp;
 
+## Landing_Area_2
+
+This assignment lets the user enter 3 coordinates as input, calculates the area made between the coordinates, and draws the triangle on an OLED.
+
+### Code
+
+[Landing Area 2 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Landing2.py)
+
+### Evidence 
+
+![Image](images/landing1.gif)
+
+### Reflection
+
+
+
+&nbsp;
+
 ## FEA_Analysis_1
 
 ### Assignment Description
