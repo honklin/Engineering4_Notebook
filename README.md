@@ -201,8 +201,13 @@ This assignment lets the user enter 3 coordinates as input, calculates the area 
 
 ![Image](images/landing2.jpg)
 
+### Wiring
+
+![Image](images/landing2wiring.jpg)
+
 ### Reflection
 
+This assignment was not too challenging because it just added one function onto Landing Area 1. I just needed to add the graphing function that drew the axes, the origin, and the triangle. The hardest part was offsetting the coordinates so that the triangle was drawn from the origin and not from the upper left corner of the OLED.
 
 &nbsp;
 
