@@ -199,10 +199,9 @@ This assignment lets the user enter 3 coordinates as input, calculates the area 
 
 ### Evidence 
 
-![Image](images/landing1.gif)
+![Image](images/landing2.jpg)
 
 ### Reflection
-
 
 
 &nbsp;
