@@ -14,7 +14,6 @@ i2c = busio.I2C(board.GP5, board.GP4) #I2C device declaration
 display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP2) #OLED i2c declaration
 display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64) #display declaration
 
-
 def check(test): #checks syntax
     try:
         test[0] = float(test[0]) #change to float
@@ -31,11 +30,11 @@ def graph(x,y,z): #draws graph and triangle
     splash = displayio.Group() #declares splash
     xaxis = Line(0,32,128,32, color=0xFFFF00) #draws x-axis
     splash.append(xaxis)
-    yaxis = Line(64,0,64,64, color=0xFFFF00)
+    yaxis = Line(64,0,64,64, color=0xFFFF00) #draws y-axis
     splash.append(yaxis)
-    origin = Circle(64,32,2,outline=0xFFFF00)
+    origin = Circle(64,32,2,outline=0xFFFF00) #draws origin
     splash.append(origin)
-    triangle = Triangle(64+int(x[0]),32-int(x[1]),64+int(y[0]),32-int(y[1]),64+int(z[0]),32-int(z[1]),outline=0xFFFF00)
+    triangle = Triangle(64+int(x[0]),32-int(x[1]),64+int(y[0]),32-int(y[1]),64+int(z[0]),32-int(z[1]),outline=0xFFFF00) #draws triangle
     splash.append(triangle)
     display.show(splash)
 
