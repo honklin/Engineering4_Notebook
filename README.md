@@ -203,7 +203,7 @@ This assignment lets the user enter 3 coordinates as input, calculates the area 
 
 ### Wiring
 
-![Image](images/landing2wiring.jpg)
+![Image](images/landing2wiring.png)
 
 ### Reflection
 
