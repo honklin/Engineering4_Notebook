@@ -12,6 +12,7 @@
 * [Crash Avoidance 3](#crash_avoidance_3)
 * [Landing Area 1](#landing_area_1)
 * [Landing Area 2](#landing_area_2)
+* [Morse Code 1](#morse_code_1)
 * [FEA Analysis 1](#fea_analysis_1)
 * [FEA Analysis 3](#fea_analysis_3)
 * [FEA Analysis 4](#fea_analysis_4)
@@ -203,11 +204,29 @@ This assignment lets the user enter 3 coordinates as input, calculates the area 
 
 ### Wiring
 
-![Image](images/landing2wiring.jpg)
+![Image](images/landing2wiring.png)
 
 ### Reflection
 
 This assignment was not too challenging because it just added one function onto Landing Area 1. I just needed to add the graphing function that drew the axes, the origin, and the triangle. The hardest part was offsetting the coordinates so that the triangle was drawn from the origin and not from the upper left corner of the OLED.
+
+&nbsp;
+
+## Morse_Code_1
+
+This assignment takes a message from the user and outputs the morse code translation.
+
+### Code
+
+[Morse Code 1 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Morse1.py)
+
+### Evidence 
+
+![GIF](images/morse1.gif)
+
+### Reflection
+
+This assignment used a dictionary to translate from the English letters to the morse code equivalent. A dictionary stores a value to the letters so that when a letter is called, it returns the equivalent morse code translation. Then I figured out that Python will combine strings together if they are added with the "+" sign.
 
 &nbsp;
 
