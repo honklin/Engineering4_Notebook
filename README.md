@@ -211,6 +211,24 @@ This assignment was not too challenging because it just added one function onto 
 
 &nbsp;
 
+## Morse_Code_1
+
+This assignment takes a message from the user and outputs the morse code translation.
+
+### Code
+
+[Morse Code 1 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Morse1.py)
+
+### Evidence 
+
+![GIF](images/morse1.gif)
+
+### Reflection
+
+This assignment used a dictionary to translate from the English letters to the morse code equivalent. A dictionary stores a value to the letters so that when a letter is called, it returns the equivalent morse code translation. Then I figured out that Python will combine strings together if they are added with the "+" sign.
+
+&nbsp;
+
 ## FEA_Analysis_1
 
 ### Assignment Description
