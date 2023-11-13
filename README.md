@@ -249,7 +249,7 @@ This assignment takes a message from the user, outputs the morse code translatio
 
 ### Reflection
 
-
+This assignment was not very challenging because it was very similar to part 1. I only had to add one for loop to make the LED blink in the correct morse code. The loop checks which character is next in the morse code string and turns the LED on or off and delays depending on the character.
 
 &nbsp;
 
