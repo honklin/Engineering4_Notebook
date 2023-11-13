@@ -230,6 +230,28 @@ This assignment used a dictionary to translate from the English letters to the m
 
 &nbsp;
 
+## Morse_Code_2
+
+This assignment takes a message from the user, outputs the morse code translation, and then blinks the morse code on an LED.
+
+### Code
+
+[Morse Code 2 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Morse2.py)
+
+### Evidence 
+
+![GIF](images/morse2.gif)
+
+### Wiring
+
+![Image](images/morse2wiring.png)
+
+### Reflection
+
+
+
+&nbsp;
+
 ## FEA_Analysis_1
 
 ### Assignment Description
