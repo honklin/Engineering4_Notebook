@@ -1,5 +1,4 @@
 #type: ignore
-import time #delay library
 import board #pins library
 import digitalio #LED library
 import adafruit_mpu6050 #accelerometer libary
