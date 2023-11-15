@@ -45,5 +45,5 @@ while True:
                 time.sleep(.75)
                 led.value = False
                 time.sleep(.25)
-            if character == " ": #waits for space
+            if character == "/": #waits for space
                 time.sleep(1.75)
