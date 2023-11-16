@@ -256,6 +256,7 @@ This assignment was not very challenging because it was very similar to part 1. 
 
 ## Data_Storage_1
 
+This assignment takes data from an accelerometer and saves the data to a file once reconnected to the terminal.
 
 ### Code
 
@@ -271,7 +272,7 @@ This assignment was not very challenging because it was very similar to part 1. 
 
 ### Reflection
 
-
+This assignment used the tilt sensing from Crash Avoidance 3 and added the data saving. To run the code correctly, first switch the board from code mode to data mode, then disconnect the board and turn on the battery and collect the data, then switch the board back into code mode, and lastly turn off the battery and reconnect to the terminal. I had some trouble uploading the data to the data.csv file, but I realized I had to use datalog.flush() to upload the data.
 
 &nbsp;
 
