@@ -17,12 +17,13 @@ with open("/data.csv", "a") as datalog:
         xacc = mpu.acceleration[0]
         yacc = mpu.acceleration[1]
         zacc = mpu.acceleration[2]
+        led.value = True
         if (zacc < 5): #if board tilts
             tilt = True
         else:
             tilt = False
+            time.sleep(.1)
+            led.value = False
         datalog.write(f"{runtime},{xacc},{yacc},{zacc},{tilt}\n")
-        led.value = True
-        time.sleep(.5)
-        led.value = False
+        datalog.flush()
         time.sleep(.25)
