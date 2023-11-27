@@ -262,6 +262,10 @@ This assignment takes data from an accelerometer and saves the data to a file on
 
 [Data Storage 1 Code](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/Data1.py)
 
+### Data File
+
+[Data File](https://github.com/honklin/Engineering4_Notebook/blob/main/raspberry-pi/data.csv)
+
 ### Evidence 
 
 ![GIF](images/data1.gif)
