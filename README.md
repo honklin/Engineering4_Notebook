@@ -15,6 +15,7 @@
 * [Morse Code 1](#morse_code_1)
 * [Morse Code 2](#morse_code_2)
 * [Data Storage 1](#data_storage_1)
+* [Data Storage 2](#data_storage_2)
 * [FEA Analysis 1](#fea_analysis_1)
 * [FEA Analysis 3](#fea_analysis_3)
 * [FEA Analysis 4](#fea_analysis_4)
@@ -277,6 +278,20 @@ This assignment takes data from an accelerometer and saves the data to a file on
 ### Reflection
 
 This assignment used the tilt sensing from Crash Avoidance 3 and added the data saving. To run the code correctly, first switch the board from code mode to data mode, then disconnect the board and turn on the battery and collect the data, then switch the board back into code mode, and lastly turn off the battery and reconnect to the terminal. I had some trouble uploading the data to the data.csv file, but I realized I had to use datalog.flush() to upload the data.
+
+&nbsp;
+
+## Data_Storage_2
+
+This assignment takes the data from Data Storage 1 and formats it into a spreadsheet and graphs.
+
+### Evidence 
+
+[Data Sheet](https://docs.google.com/spreadsheets/d/1Twvln96vIJm_CvAzLNQHe16h_LkR9JexW4WqtjjQlGY/edit?usp=sharing)
+
+### Reflection
+
+This assignment was not very difficult because it was just formatting data from the previous assignment. The charts on the data sheet showed how the accelerations compare with the time and the times when the board was tilted. I learned that you can split data into columns instead of doing it manually by formatting it to split data by commas.
 
 &nbsp;
 
