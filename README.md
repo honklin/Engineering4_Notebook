@@ -285,9 +285,13 @@ This assignment used the tilt sensing from Crash Avoidance 3 and added the data 
 
 This assignment takes the data from Data Storage 1 and formats it into a spreadsheet and graphs.
 
-### Evidence 
+### Data Sheet 
 
 [Data Sheet](https://docs.google.com/spreadsheets/d/1Twvln96vIJm_CvAzLNQHe16h_LkR9JexW4WqtjjQlGY/edit?usp=sharing)
+
+### Evidence
+
+![Image](images/data2.png)
 
 ### Reflection
 
