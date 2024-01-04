@@ -11,19 +11,19 @@ led.direction = digitalio.Direction.OUTPUT
 i2c = busio.I2C(board.GP15, board.GP14) #I2C device declaration
 mpu = adafruit_mpu6050.MPU6050(i2c) #accelerometer declaration
 
-with open("/data.csv", "a") as datalog:
+with open("/data.csv", "a") as datalog: #creates data.csv file
     while True:
-        runtime = time.monotonic()
-        xacc = mpu.acceleration[0]
-        yacc = mpu.acceleration[1]
-        zacc = mpu.acceleration[2]
+        runtime = time.monotonic() #total time
+        xacc = mpu.acceleration[0] #x acceleration
+        yacc = mpu.acceleration[1] #y acceleration
+        zacc = mpu.acceleration[2] #z accleration
         led.value = True
         if (zacc < 5): #if board tilts
-            tilt = True
-        else:
-            tilt = False
+            tilt = True #turn on led
+        else: #if board flat
+            tilt = False #blink led
             time.sleep(.1)
             led.value = False
-        datalog.write(f"{runtime},{xacc},{yacc},{zacc},{tilt}\n")
-        datalog.flush()
+        datalog.write(f"{runtime},{xacc},{yacc},{zacc},{tilt}\n") #write data
+        datalog.flush() #push data to csv
         time.sleep(.25)
