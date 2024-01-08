@@ -2,12 +2,8 @@
 import board
 import time
 import digitalio
-import busio
 import pwmio
-import adafruit_mpu6050
 
-i2c = busio.I2C(board.GP5, board.GP4)
-mpu = adafruit_mpu6050.MPU6050(i2c, address=0x68)
 motor = pwmio.PWMOut(board.GP14,duty_cycle = 65535,frequency=5000)
 
 release = digitalio.DigitalInOut(board.GP1)
@@ -31,11 +27,14 @@ while (speed < 65535):
     time.sleep(.001)
 while True:
     if (encoder == max):
-        rotations += 1
+        rotation += 1
         encoder = 0
     else:
         encoder = encoder
     if (encoder == encoderMax and rotation == rotationMax):
         release.value = False
         led.value = False
+        while (speed > 0):
+            speed -= 10
+            time.sleep(.001)
         break
