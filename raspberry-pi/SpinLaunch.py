@@ -29,12 +29,10 @@ while True:
     if (encoder == max):
         rotation += 1
         encoder = 0
-    else:
-        encoder = encoder
-    if (encoder == encoderMax and rotation == rotationMax):
-        release.value = False
-        led.value = False
-        while (speed > 0):
-            speed -= 10
-            time.sleep(.001)
-        break
+        if (rotation == rotationMax):
+            release.value = False
+            led.value = False
+            while (speed > 0):
+                speed -= 10
+                time.sleep(.001)
+            break
