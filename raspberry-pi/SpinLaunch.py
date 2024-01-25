@@ -4,15 +4,15 @@ import time
 import digitalio
 import pwmio
 
-motor = pwmio.PWMOut(board.GP14,duty_cycle = 65535,frequency=5000)
+motor = pwmio.PWMOut(board.GP14, duty_cycle = 65535,frequency=5000)
 
 release = digitalio.DigitalInOut(board.GP1)
 release.direction = digitalio.Direction.OUTPUT
 release.value = True
 
-led = digitalio.DigitalInOut(board.GP0)
-led.direction = digitalio.Direction.OUTPUT
-led.value = True
+on = digitalio.DigitalInOut(board.GP0)
+on.direction = digitalio.Direction.OUTPUT
+on.value = True
 
 speed = 0
 encoder = 0
@@ -25,14 +25,16 @@ while (speed < 65535):
     print(speed)
     speed += 5
     time.sleep(.001)
-while True:
-    if (encoder == max):
+while speed > 0:
+    print(encoder)
+    print(rotation)
+    if (encoder == encoderMax):
         rotation += 1
         encoder = 0
         if (rotation == rotationMax):
             release.value = False
-            led.value = False
             while (speed > 0):
-                speed -= 10
+                motor.duty_cycle = speed
+                print(speed)
+                speed -= 5
                 time.sleep(.001)
-            break

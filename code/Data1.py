@@ -17,13 +17,12 @@ with open("/data.csv", "a") as datalog: #creates data.csv file
         xacc = mpu.acceleration[0] #x acceleration
         yacc = mpu.acceleration[1] #y acceleration
         zacc = mpu.acceleration[2] #z accleration
-        led.value = True
         if (zacc < 5): #if board tilts
             tilt = True #turn on led
         else: #if board flat
             tilt = False #blink led
             time.sleep(.1)
-            led.value = False
+        led.value = tilt
         datalog.write(f"{runtime},{xacc},{yacc},{zacc},{tilt}\n") #write data
         datalog.flush() #push data to csv
         time.sleep(.25)
