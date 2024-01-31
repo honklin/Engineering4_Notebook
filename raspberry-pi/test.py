@@ -1,14 +1,21 @@
 #type: ignore
 import board
 import time
-import digitalio
+from adafruit_motor import motor
 import pwmio
+import digitalio
+import analogio
 
-motor = pwmio.PWMOut(board.GP14,duty_cycle = 65535,frequency=5000)
+pwmA = pwmio.PWMOut(board.GP14, frequency=50)
+pwmB = pwmio.PWMOut(board.GP15, frequency=50)
+motor1 = motor.DCMotor(pwmA,pwmB)
 
-while (True):
-    motor.duty_cycle = 4000
-    print(board.GP10) #digital
-    print(board.GP11) #analog
-    print(board.GP12) #I2C
-    print(board.GP13) #encoder
+ch1 = analogio.AnalogIn(board.GP26)
+ch2 = analogio.AnalogIn(board.GP27)
+
+
+while True:
+    motor1.throttle = 1
+    print(ch1.value)
+    print(ch2.value)
+    time.sleep(.5)
