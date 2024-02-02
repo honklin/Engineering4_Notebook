@@ -13,9 +13,10 @@ motor1 = motor.DCMotor(pwmA,pwmB)
 ch1 = analogio.AnalogIn(board.GP26)
 ch2 = analogio.AnalogIn(board.GP27)
 
-
 while True:
-    motor1.throttle = 1
+    motor1.throttle = .2
+    print("ch1:")
     print(ch1.value)
+    print("ch2:")
     print(ch2.value)
-    time.sleep(.5)
+    time.sleep(.1)
